@@ -1,0 +1,34 @@
+/* * {
+  border: 1px solid red;
+} */
+
+.disclaimer-content {
+  width: 60vw;
+  margin: auto;
+  min-height: 100vh;
+}
+.disclaimer-content h2 {
+  text-align: center;
+  color: grey;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.disclaimer-about p {
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: left;
+  line-height: 1.8rem;
+  color: grey;
+  font-size: 1rem;
+}
+
+@media (max-width: 991px) {
+  .disclaimer-content {
+    width: 90%;
+  }
+  .disclaimer-about p {
+    width: 100%;
+  }
+}

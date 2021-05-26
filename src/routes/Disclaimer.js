@@ -1,11 +1,11 @@
 import React from "react";
-import "../css/about.css";
+import "../css/disclosure.css";
 
-const About = () => {
+const Disclaimer = () => {
   return (
-    <div className="about-content">
-      <h2>About site Name</h2>
-      <div className="txt-about">
+    <div className="disclaimer-content">
+      <h2>Disclaimer</h2>
+      <div className="disclaimer-about">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cum
           quibusdam, nostrum similique obcaecati repudiandae, labore assumenda
@@ -59,4 +59,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Disclaimer;

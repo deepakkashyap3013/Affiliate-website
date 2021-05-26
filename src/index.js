@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 import ReactRouter from "./Routers";
-import "./styles.css";
+import "./css/styles.css";
 
 const Index = () => {
   return (

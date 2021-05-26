@@ -46,6 +46,16 @@ const Navbar = () => {
         <Link className="item" to="/contact" onClick={() => setShow(false)}>
           Contact
         </Link>
+        <Link className="item" to="/disclaimer" onClick={() => setShow(false)}>
+          FTC Disclosure
+        </Link>
+        <Link
+          className="item"
+          to="/privacypolicy"
+          onClick={() => setShow(false)}
+        >
+          Privay Policy
+        </Link>
       </div>
     </div>
   );

@@ -1,11 +1,11 @@
 import React from "react";
-import "../css/about.css";
+import "../css/privacy.css";
 
-const About = () => {
+const PrivacyPolicy = () => {
   return (
-    <div className="about-content">
-      <h2>About site Name</h2>
-      <div className="txt-about">
+    <div className="privacy-content">
+      <h2>Privacy Policy</h2>
+      <div className="privacy-about">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cum
           quibusdam, nostrum similique obcaecati repudiandae, labore assumenda
@@ -59,4 +59,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default PrivacyPolicy;

@@ -1,0 +1,33 @@
+.contact-content {
+  width: 60vw;
+  margin: auto;
+  min-height: 100vh;
+}
+.contact-content h2 {
+  text-align: center;
+  color: grey;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+.contact-about p {
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: left;
+  line-height: 1.8rem;
+  color: grey;
+  font-size: 1rem;
+}
+
+.contact-about h2 {
+  color: grey !important;
+}
+
+@media (max-width: 991px) {
+  .contact-content {
+    width: 90%;
+  }
+  .contact-about p {
+    width: 100%;
+  }
+}
