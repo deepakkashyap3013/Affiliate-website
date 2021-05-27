@@ -28,10 +28,12 @@ const Home = () => {
     <>
       <div className="hero">
         <div className="hero-text">
-          <h3>Awesome tools for your awesome Kitchen</h3>
+          <h3>
+            There is no such thing as a perfect parent. So be the Real One.
+          </h3>
         </div>
       </div>
-      <h2 className="product-heading">Best Selling Products</h2>
+      <h2 className="product-heading">Best Selling products for parents</h2>
       <div className="button-category">
         {categories.map((category, index) => {
           return (
@@ -50,6 +52,9 @@ const Home = () => {
           return <Card key={product.id} {...product} />;
         })}
       </div>
+      <a className="gotop" href="#">
+        <i class="fas fa-arrow-up"></i>
+      </a>
     </>
   );
 };

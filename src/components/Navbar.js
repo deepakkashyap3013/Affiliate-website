@@ -7,8 +7,7 @@ const Navbar = () => {
     <div className="nav-controler">
       <div className="nav-bar">
         <h2>
-          Kithen<span>Smith</span>
-          <a href="#">.com</a>
+          Myparenting<span>Care</span>
         </h2>
         <ul>
           <li>
@@ -33,7 +32,7 @@ const Navbar = () => {
           <span className="bar"></span>
         </div>
       </div>
-      <div className={show ? "mobile-nav on" : "mobile-nav off"}>
+      <div className={`mobile-nav ${show ? "on" : "off"}`}>
         <button onClick={() => setShow(false)}>
           <h3>X</h3>
         </button>

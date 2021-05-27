@@ -2,11 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "PT Sans", sans-serif;
   /* border: 1px solid red; */
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: #d8e3e7;
+  background-color: #f9f3f3;
 }
 .nav-controler {
   width: 100%;
@@ -138,12 +142,12 @@ li:hover {
   display: flex;
   justify-content: center;
   margin: auto;
-  background-image: url("../images/original-2.jpg");
+  background-image: url("../images/origin.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
-  text-align: center;
+  color: whitesmoke;
+  text-align: right;
 }
 .hero-text {
   background-color: rgba(0, 0, 0, 0.4);
@@ -153,9 +157,10 @@ li:hover {
 .hero h3 {
   max-width: 60vw;
   font-size: 4rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
   margin: auto;
+  font-weight: 400;
 }
 @media (max-width: 991px) {
   .hero h3 {
@@ -164,7 +169,7 @@ li:hover {
     margin: auto;
   }
   .hero {
-    text-align: center;
+    text-align: right;
   }
   .nav-bar h2 {
     font-size: 2rem;
@@ -172,14 +177,16 @@ li:hover {
 }
 
 .product-heading {
-  margin: 3rem auto;
+  margin: 3rem auto 2rem;
   text-align: center;
   font-size: 3rem;
-  color: #001112;
+  color: #585d5e;
 }
 @media (max-width: 991px) {
   .product-heading {
-    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -299,4 +306,30 @@ li:hover {
   .name {
     font-size: 0.9rem;
   }
-} ;
+}
+
+.gotop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: #536162;
+  color: whitesmoke;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  text-align: center;
+  z-index: 1000;
+  border-radius: 50%;
+  padding-top: 10px;
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 991px) {
+  .gotop {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding-top: 8px;
+  }
+}
