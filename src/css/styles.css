@@ -145,7 +145,7 @@ li:hover {
   background-image: url("../images/2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top;
   color: whitesmoke;
   text-align: right;
 }
@@ -168,9 +168,9 @@ li:hover {
     max-width: 90%;
     margin: auto;
   }
-  .hero {
-    text-align: left;
-  }
+  /* .hero {
+    text-align: center;
+  } */
   .nav-bar h2 {
     font-size: 2rem;
   }
@@ -242,7 +242,7 @@ li:hover {
   opacity: 0.9;
   transition: opacity transform;
   transition-duration: 0.3s;
-  border: 2px solid teal;
+  border: 1px solid teal;
 }
 
 .card img {
