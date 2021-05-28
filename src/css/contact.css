@@ -19,6 +19,17 @@
   font-size: 1rem;
 }
 
+.contact-about h3 {
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: left;
+  line-height: 1.8rem;
+  color: rgb(95, 93, 93);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
 .contact-about h2 {
   color: grey !important;
 }
@@ -28,6 +39,9 @@
     width: 90%;
   }
   .contact-about p {
+    width: 100%;
+  }
+   .contact-about h3 {
     width: 100%;
   }
 }

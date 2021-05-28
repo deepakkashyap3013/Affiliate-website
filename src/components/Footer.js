@@ -7,7 +7,7 @@ const Footer = () => {
     <section className="footer">
       <div className="content">
         <div className="logo">
-          <h3>About Kitchensmith.com</h3>
+          <h3>About MyparentingCare</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             atque ipsam nemo numquam unde possimus temporibus quo blanditiis

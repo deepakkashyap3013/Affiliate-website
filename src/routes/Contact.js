@@ -4,24 +4,19 @@ import "../css/contact.css";
 const Contact = () => {
   return (
     <div className="contact-content">
-      <h2>Contact us</h2>
+      <h2>Contact MyparentingCare</h2>
       <div className="contact-about">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          dolorem voluptas laborum rem debitis suscipit accusamus culpa
-          mollitia. Dolore cumque ea quidem necessitatibus quaerat, veritatis
-          laborum provident est architecto delectus temporibus quas consequatur
-          tempora accusamus qui inventore optio porro harum iste obcaecati.
-          Nulla earum eveniet, optio quisquam, ducimus esse explicabo quaerat
-          quia maiores perferendis numquam magnam distinctio expedita. Quasi
-          itaque sequi illum minus voluptates facilis tenetur odit, dolore
-          expedita, unde molestias sit odio corrupti provident perferendis.
-          Ratione, totam delectus nemo asperiores libero exercitationem sint!
-          Molestias ea dolorem asperiores, consequuntur facilis similique
-          necessitatibus cumque laborum magnam eius reiciendis ex earum
-          excepturi.
+          We are glad that you reach here we would love to hear you please go on
+          and contact us using the email address given below .
         </p>
-        <h2>contact@gmail.com</h2>
+        <h3>What can you say to us ?</h3>
+        <p>- We would love to hear from you about our site</p>
+        <p>- Any suggestion to improve on our side.</p>
+        <p>- Do not spam.</p>
+        <p>- Contact us if you feel we can promote your services or product.</p>
+        <p>- Contact if you can contribute something on our site.</p>
+        <h2>Email: contact@gmail.com</h2>
       </div>
     </div>
   );
