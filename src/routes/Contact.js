@@ -4,7 +4,7 @@ import "../css/contact.css";
 const Contact = () => {
   return (
     <div className="contact-content">
-      <h2>Contact MyparentingCare</h2>
+      <h2>Contact Us</h2>
       <div className="contact-about">
         <p>
           We are glad that you reach here we would love to hear you please go on
@@ -16,7 +16,7 @@ const Contact = () => {
         <p>- Do not spam.</p>
         <p>- Contact us if you feel we can promote your services or product.</p>
         <p>- Contact if you can contribute something on our site.</p>
-        <h2>Email: contact@gmail.com</h2>
+        <h2>Email: myparentingcare@gmail.com</h2>
       </div>
     </div>
   );

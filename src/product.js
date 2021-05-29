@@ -110,6 +110,38 @@ const products = [
       "The right set of kitchen knives can make a huge difference and save valuable cooking time. Properly sharpened knives make food prep faster and easier, giving you clean and precise cuts no matter what you’re chopping, slicing or dicing. Stylish and practical, the Shears set includes all the knives you would need. Whether you are a professional chef or a home maker, this knife set can work wonders for your kitchen. The set includes a pack of 4 - knives, 1- Scissor and a wooden block to house them.",
     link: "https://www.amazon.in/Pigeon-Shears-Kitchen-Knifes-Set/dp/B088HBW6KV/ref=sr_1_5?dchild=1&keywords=kitchen&qid=1621917848&sr=8-5",
   },
+  {
+    id: 7,
+    name: "Microfibre Cleaning Cloth",
+    category: "kitchen",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/714ibbKp9wL._SL1296_.jpg",
+    subImages: [
+      "https://images-na.ssl-images-amazon.com/images/I/61uN-5D68QL._SL1000_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/51wXu0xAHBL.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81SvZmIUZwL._SL1500_.jpg",
+    ],
+    rating: 4.4,
+    description:
+      "It is soft quality microfiber cloths for home, kitchen, cars, furniture. This cloth is made of polyester and poly amide (nylon).Soft quality microfiber cloths for home, kitchen, cars, furniture. This cloth is made of polyester and poly amide (nylon).",
+    link: "https://www.amazon.in/SOBBY-Microfibre-Cleaning-Cloth-Multicolor/dp/B07489945R/ref=sr_1_19?dchild=1&keywords=kitchen&qid=1622267867&sr=8-19",
+  },
+  {
+    id: 8,
+    name: "Chopping Board with Tray",
+    category: "kitchen",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/61NDr0prjVS._SL1500_.jpg",
+    subImages: [
+      "https://images-na.ssl-images-amazon.com/images/I/71ga0pIuoAS._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61gdubSmEbS._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61mXWlKGqPS._SL1500_.jpg",
+    ],
+    rating: 4.5,
+    description:
+      "his Product can be used as a vegetable/fruit/meat/poultry/fish cleaning basket, chopping/cutting board ideal for cutting, slicing and chopping, a foldable tub for household needs such as washing dishes and also for icing beverages or camp site cleanup.",
+    link: "https://www.amazon.in/Chopping-Plastic-Multipurpose-Vegetable-Kitchen/dp/B0953DPNWT/ref=sr_1_29?dchild=1&keywords=kitchen&qid=1622267867&sr=8-29",
+  },
 ];
 
 export default products;
