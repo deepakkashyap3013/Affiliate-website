@@ -16,131 +16,126 @@
 const products = [
   {
     id: 1,
-    name: "Stainless Steel Wall Hanging Shelves",
-    category: "fashion",
+    name: "MamyPoko Pants Extra Absorb Diaper",
+    category: "Baby care",
     featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/51ThdCJK8gL._SX425_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/713%2BAP0I8SL._SL1500_.jpg",
     subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/5161wZkO6NL._SX425_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/618CnDsH68L._SL1001_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/81jkSg6wCQL._SL1500_.jpg",
-    ],
-    rating: 4.2,
-    description:
-      "Wall Adhesive Shower Caddy can be used in the kitchen, living room, bathroom, study, balcony, etc. It can be placed in seasoning box/bottle, chopsticks bucket, beverage, etc., storage cup, kitchen paper, cling film, shampoo, facial cleanser, mouthwash cup, etc. Suitable for storage at the corner of your bathroom, kitchen, rooms as a convenient collection organizer. ",
-    link: "https://www.amazon.in/K-K-VillA-Stainless-Hanging-Shelves/dp/B08TRFH33L/ref=sr_1_12?dchild=1&keywords=Stainless+Steel+Wall+Hanging+Shelves&qid=1621866259&sr=8-12",
-  },
-  {
-    id: 2,
-    name: "Stainless Steel Strainer",
-    category: "kitchen",
-    featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/51u%2BeiyIwYL.jpg",
-    subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/51LhYN951bL.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/21K-COs6mIL.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/519oFCoI5CL.jpg",
-    ],
-    rating: 4.2,
-    description:
-      "Skywalk stainless steel sink strainer kitchen drain basin basket filter stopper sink drainer. Fine sink strainer set, stops rubbish from blocking your drains.",
-    link: "https://www.amazon.in/Kitchen-Strainer-Stainless-Stopper-Drainer/dp/B08R9NZHR5/ref=sr_1_3_sspa?dchild=1&keywords=Stainless+Steel+Strainer&qid=1621866313&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExV1oyVlJNWVZVTklLJmVuY3J5cHRlZElkPUEwNzcxODQxTktYV0FZUE9ENTRSJmVuY3J5cHRlZEFkSWQ9QTA4MzQyNjgxTjBYVU9FSEEwU1YyJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
-  },
-  {
-    id: 3,
-    name: "360 Degree Rotating Water-Saving Sprinkler",
-    category: "kitchen",
-    featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/41B9FncS-AL.jpg",
-    subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/61kFFP4HVfL._SL1000_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/51yP703s2GL.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/61CGFNBamBL._SL1200_.jpg",
-    ],
-    rating: 3.7,
-    description:
-      "Simxen kitchen water shower tap faucet tap aerator, Faucet splash-proof filter three gear adjustable tap water-saving device head nozzle for kitchen and bathroom.",
-    link: "https://www.amazon.in/CABLE-GALLERY-Water-Saving-Adjustable-Splash-Proof/dp/B08JZ4T8MY/ref=sr_1_2_sspa?dchild=1&keywords=360+Degree+Rotating+Water-Saving+Sprinkler&qid=1621866358&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMTZDTFhINEhQMDdPJmVuY3J5cHRlZElkPUEwMjcxMTU5MVhHUVhZTkxVWkRQNiZlbmNyeXB0ZWRBZElkPUEwNzcyNTg3MVBGOVFTTlpBR0U2ViZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
-  },
-  {
-    id: 4,
-    name: "evolving Spice Rack set (16 pieces)",
-    category: "kitchen",
-    featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/81u0Uo4nQdL._SL1500_.jpg",
-    subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/71%2BLJeg1dJL._SL1500_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/61hKuPvtrbL._SL1500_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/819rMB1w5BL._SL1500_.jpg",
-    ],
-    rating: 4,
-    description:
-      "A hassle-free storage solution by organizing your spice collection in one place! The beautifully designed revolving rack makes it easier for you to access your spices, herbs, powdered sugar and sprinkles. This spice rack set is a handy addition to your kitchen cabinet, drawer and pantry.",
-    link: "https://www.amazon.in/Amazon-Brand-Solimo-Revolving-pieces/dp/B07PBBRWFG/ref=sr_1_3?dchild=1&keywords=evolving+Spice+Rack+set+%2816+pieces%29&qid=1621866400&sr=8-3",
-  },
-  {
-    id: 5,
-    name: "Kitchen Silicon Oil Basting Brush",
-    category: "kitchen",
-    featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/51pUbksTn0L.jpg",
-    subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/71IaQqdJ5VL._SL1500_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/41zYzsc%2BGQL.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/51PAsQeGcKL._SL1016_.jpg",
-    ],
-    rating: 3.7,
-    description:
-      "This oil basting brush is made of food grade silicone material and comes along with a hard plastic handle to firmly hold the brush. The package contains one oil brush of 7 inches.",
-    link: "https://www.amazon.in/Silicon-Oil-Basting-Brush-Free/dp/B07N3X4MFD/ref=sr_1_4?dchild=1&keywords=Kitchen+Silicon+Oil+Basting+Brush&qid=1621866427&sr=8-4",
-  },
-  {
-    id: 6,
-    name: "Kitchen Knifes 6 Piece",
-    category: "kitchen",
-    featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/51BgScyg2qL._SL1000_.jpg",
-    subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/61R3JV25v2L._SL1000_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/71B%2BlwhMjlL._SL1000_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/71YDr4cE8aL._SL1000_.jpg",
-    ],
-    rating: 4.1,
-    description:
-      "The right set of kitchen knives can make a huge difference and save valuable cooking time. Properly sharpened knives make food prep faster and easier, giving you clean and precise cuts no matter what you’re chopping, slicing or dicing. Stylish and practical, the Shears set includes all the knives you would need. Whether you are a professional chef or a home maker, this knife set can work wonders for your kitchen. The set includes a pack of 4 - knives, 1- Scissor and a wooden block to house them.",
-    link: "https://www.amazon.in/Pigeon-Shears-Kitchen-Knifes-Set/dp/B088HBW6KV/ref=sr_1_5?dchild=1&keywords=kitchen&qid=1621917848&sr=8-5",
-  },
-  {
-    id: 7,
-    name: "Microfibre Cleaning Cloth",
-    category: "kitchen",
-    featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/714ibbKp9wL._SL1296_.jpg",
-    subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/61uN-5D68QL._SL1000_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/51wXu0xAHBL.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/81SvZmIUZwL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/611kFPUBu1L._SL1000_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71LhhJ3HFwL._SL1000_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61wLa4pbSDL._SL1000_.jpg",
     ],
     rating: 4.4,
     description:
-      "It is soft quality microfiber cloths for home, kitchen, cars, furniture. This cloth is made of polyester and poly amide (nylon).Soft quality microfiber cloths for home, kitchen, cars, furniture. This cloth is made of polyester and poly amide (nylon).",
-    link: "https://www.amazon.in/SOBBY-Microfibre-Cleaning-Cloth-Multicolor/dp/B07489945R/ref=sr_1_19?dchild=1&keywords=kitchen&qid=1622267867&sr=8-19",
+      "MamyPoko pants extra absorb with crisscross absorbent sheet which absorbs 7 glasses of urine and spreads it equally, so there's no fear of heaviness. Its stretchable thigh support prevents gaps between diaper and baby's thigh, hence prevents leakage.",
+    link: "https://www.amazon.in/MamyPoko-Pants-Absorb-Diaper-Medium/dp/B08S9JC8FF/ref=zg_bs_baby_1?_encoding=UTF8&psc=1&refRID=VSG8YJ1BS03CFJD8P06K",
   },
   {
-    id: 8,
-    name: "Chopping Board with Tray",
-    category: "kitchen",
+    id: 2,
+    name: "Soft Cleansing Baby Wipes",
+    category: "Baby care",
     featuredImg:
-      "https://images-na.ssl-images-amazon.com/images/I/61NDr0prjVS._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/619r6Tl2iML._SL1393_.jpg",
+    subImages: [],
+    rating: 4.4,
+    description:
+      "Baby Wipes are extra thick and extra moist for your baby's gentle skin. Enriched with the goodness of Aloe Vera, Jojoba Oil and Vitamin E, to ensure that your baby's skin remains soft and moisturized, while the gentle fragrance of the wipes keeps your baby fresh and happy all day long without causing any irritation.",
+    link: "https://www.amazon.in/Littles-Soft-Cleansing-Baby-Wipes/dp/B084S5JSZ1/ref=zg_bs_baby_5?_encoding=UTF8&refRID=VSG8YJ1BS03CFJD8P06K&th=1",
+  },
+  {
+    id: 3,
+    name: "Baby Powder & Himalaya Gentle Baby Bath",
+    category: "Baby care",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/51g3LUuRRFL._SL1001_.jpg",
     subImages: [
-      "https://images-na.ssl-images-amazon.com/images/I/71ga0pIuoAS._SL1500_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/61gdubSmEbS._SL1500_.jpg",
-      "https://images-na.ssl-images-amazon.com/images/I/61mXWlKGqPS._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61qHFEQe0nL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71J3Dvr1FeL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71PrXGdqLTL._SL1500_.jpg",
     ],
     rating: 4.5,
     description:
-      "his Product can be used as a vegetable/fruit/meat/poultry/fish cleaning basket, chopping/cutting board ideal for cutting, slicing and chopping, a foldable tub for household needs such as washing dishes and also for icing beverages or camp site cleanup.",
-    link: "https://www.amazon.in/Chopping-Plastic-Multipurpose-Vegetable-Kitchen/dp/B0953DPNWT/ref=sr_1_29?dchild=1&keywords=kitchen&qid=1622267867&sr=8-29",
+      "Himalaya's Gentle Baby Wash with its unique No Tears formula is infused with the goodness of Chickpea, Fenugreek and Green Gram which cleanses your newborn's skin, gently.Enriched with natural ingredients, the Himalaya Herbals baby powder is highly efficacious in combating baby's dry skin problems.",
+    link: "https://www.amazon.in/Himalaya-Baby-Powder-Gentle-400ml/dp/B08218NKPN/ref=zg_bs_baby_25?_encoding=UTF8&psc=1&refRID=VSG8YJ1BS03CFJD8P06K",
+  },
+  {
+    id: 4,
+    name: "Ear Buds",
+    category: "Baby care",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/81GKVdyfhNL._SL1500_.jpg",
+    subImages: [
+      "https://images-na.ssl-images-amazon.com/images/I/91TXiFhYAGL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61B%2B1JEhK-L._SL1000_.jpg",
+    ],
+    rating: 4.5,
+    description:
+      "Johnson's Buds are made with pure and soft cotton, sterilized and clinically tested. We love babies and we understand a baby’s hygiene is something that no parent wants to compromise with. The cotton used for Johnson's cotton buds is pure and soft in nature and the finished products are sterilized and clinically tested before packaging. The buds are very thin in texture. Hence, you can even use them to clean the delicate areas of your baby’s body, such as the gaps between fingers and toes and nostrils. These buds for babies can also be used to apply lotions or medicines in sensitive areas. Moms trust Johnson's - always mild, gentle and effective.",
+    link: "https://www.amazon.in/Johnsons-21501813-Buds-150-Swabs/dp/B006LWP8GC/ref=zg_bs_1953111031_25?_encoding=UTF8&psc=1&refRID=S8HYF1MNKQQHM0CMW58R",
+  },
+  {
+    id: 5,
+    name: "Animal Shape Bath Toys Non Toxic",
+    category: "Toys",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/717NIfJi17S._SL1500_.jpg",
+    subImages: [
+      "https://images-na.ssl-images-amazon.com/images/I/71IaQqdJ5VL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71sIW59Wj2L._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81f4zbKco-L._SL1500_.jpg",
+    ],
+    rating: 4.4,
+    description:
+      "The set includes both rattles and bath toys. This is the perfect set that will accompany your kids in their bath time and also in their play time.All the toys in the set are made of good quality material and have no sharp edges, so you don’t need to worry about your kids getting hurt while playing with this set. All the toys are perfectly sized for little hand to hold and play by themselves.",
+    link: "https://www.amazon.in/WISHKEY-Rattles-Teethers-Animal-Infants/dp/B07X5L5C1R/ref=zg_bs_1953106031_2?_encoding=UTF8&refRID=QHGQD7FP5VEJ3PHXVBJ5&th=1",
+  },
+  {
+    id: 6,
+    name: "Push and Shake Wobbling Bell",
+    category: "Toys",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/415v57jc84L.jpg",
+    subImages: [
+      "https://images-na.ssl-images-amazon.com/images/I/61AZ3No4ERL._SL1000_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/41VOiTpxhML.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/61NCD5eesoL.jpg",
+    ],
+    rating: 4.2,
+    description:
+      "It has subdued colors, with a naive facial expressions, just like a cute baby. Nodding doll is a good partner in the growth of the baby.Now buy the doll,you will get a lovelt gift-a cute little doll with long ears.",
+    link: "https://www.amazon.in/Toyshine-Wobbling-Sounds-Tumbler-Multicolour/dp/B073WVT662/ref=zg_bs_1953106031_22?_encoding=UTF8&refRID=QHGQD7FP5VEJ3PHXVBJ5&th=1",
+  },
+  {
+    id: 7,
+    name: "Wooden Hammer Ball Knock Ball",
+    category: "Toys",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/71UaziJUYDL._SL1500_.jpg",
+    subImages: [
+      "https://images-na.ssl-images-amazon.com/images/I/81SlBDMFKiL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71qlh%2BoKvCL._SL1500_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/71VNTPE0ZTL._SL1500_.jpg",
+    ],
+    rating: 3.7,
+    description:
+      "IChildren will love pounding the ball and watching it roll down and around, from top to bottom – again and again, with the Wooden Hammer Ball Game.This game is an exciting and interesting game, great for helping toddlers develop a solid sense of hand-eye co-ordination: Firstly, by hitting the balls through the holes with the wooden hammer, then by following the ball with their eyes as it travels on its journey to the bottom. Young children will be taken in by the Pound N Roll game’s regularly shaped platforms painted in vibrant primary colours, and parents will appreciate the game’s timeless wooden charm.",
+    link: "https://www.amazon.in/Trinkets-More%C2%AE-Pounding-Dexterity-Educational/dp/B07GXN2WTT/ref=zg_bs_1953106031_23?_encoding=UTF8&refRID=QHGQD7FP5VEJ3PHXVBJ5&th=1",
+  },
+  {
+    id: 8,
+    name: "Giraffe Animal Soft Toy",
+    category: "Toys",
+    featuredImg:
+      "https://images-na.ssl-images-amazon.com/images/I/41IVHZu2PcL.jpg",
+    subImages: [
+      "https://images-na.ssl-images-amazon.com/images/I/41yOYQ5nmuL.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/41AzpSsKzwL.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/512AXLogheL.jpg",
+    ],
+    rating: 4.4,
+    description:
+      "Scooba soft toy is manufactured using excellent poly-staple and conjugate filling fibre, giving it a soft and cuddly feeling, making it extremely huggable.The Scooba soft toy is adorable, cute, and extremely huggable. This collectable cuddly toy can be used to create a little zoo of Scooba soft toys, making it a great gift idea.With intricate detailing, this soft toy can be used as a learning device and an imaginative tool to help spark your child’s creativity. You can play together and make playtime fun, exciting, and adventurous.",
+    link: "https://www.amazon.in/SCOOBA-Kids-Favourite-Giraffe-Height/dp/B085TBV2Y7/ref=zg_bs_1953106031_31?_encoding=UTF8&psc=1&refRID=QHGQD7FP5VEJ3PHXVBJ5",
   },
 ];
 
