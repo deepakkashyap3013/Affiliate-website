@@ -9,6 +9,9 @@
   font-weight: 400;
   margin-top: 0.5rem;
 }
+.contact {
+  margin-top: 3rem !important;
+}
 .contact-about p {
   width: 70%;
   margin: auto;
@@ -41,7 +44,7 @@
   .contact-about p {
     width: 100%;
   }
-   .contact-about h3 {
+  .contact-about h3 {
     width: 100%;
   }
 }

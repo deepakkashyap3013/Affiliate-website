@@ -16,7 +16,7 @@ const Contact = () => {
         <p>- Do not spam.</p>
         <p>- Contact us if you feel we can promote your services or product.</p>
         <p>- Contact if you can contribute something on our site.</p>
-        <h2>Email: myparentingcare@gmail.com</h2>
+        <h2 className="contact">Email: myparentingcare@gmail.com</h2>
       </div>
     </div>
   );

@@ -9,9 +9,10 @@ const Footer = () => {
         <div className="logo">
           <h3>About MyparentingCare</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            atque ipsam nemo numquam unde possimus temporibus quo blanditiis
-            culpa quibusdam.
+            MyparentingCare is a resource provider for newly became parents or
+            couples who want to become parents in the future . We share
+            parenting tips and methods for you to become the best parent for
+            your child .
           </p>
         </div>
         <div className="pages">
