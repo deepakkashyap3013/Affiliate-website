@@ -53,7 +53,7 @@ const Navbar = () => {
           to="/privacypolicy"
           onClick={() => setShow(false)}
         >
-          Privay Policy
+          Privacy Policy
         </Link>
       </div>
     </div>
