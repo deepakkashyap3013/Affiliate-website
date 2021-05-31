@@ -28,6 +28,10 @@ const Disclaimer = () => {
           to fully disclose any relationship between {site} product or service
           recommendations and the owners of those product or services.
         </p>
+        <p>
+          "Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its
+          affiliates."
+        </p>
         <h3>Legal Disclosure</h3>
         <p>
           The information contained in {site} is for general information

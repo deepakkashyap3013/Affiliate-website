@@ -17,7 +17,7 @@ const Card = ({
       <a href={link} className="name" target="_blank">
         {name}
       </a>
-      <a href={link} className="button">
+      <a href={link} className="button" target="_blank">
         More Info &rarr;
       </a>
     </div>

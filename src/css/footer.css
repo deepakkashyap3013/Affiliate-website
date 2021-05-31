@@ -9,7 +9,7 @@
   min-height: 20vh;
   margin-bottom: 0;
   width: 100%;
-  background-color: teal;
+  background-color: #008080;
   color: white;
   margin-top: 6rem;
   position: relative;
@@ -26,19 +26,29 @@
 }
 .logo {
   height: inherit;
-  width: 40%;
+  width: 60%;
 }
 h3 {
   margin-bottom: 0.5rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 p {
   font-size: 0.8rem;
   color: whitesmoke;
+  margin-bottom: 0.5rem;
+}
+
+.logo a {
+  color: white;
+  background-color: red;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
 }
 .pages {
   height: inherit;
-  width: 60%;
+  width: 40%;
   text-align: center;
 }
 
@@ -56,6 +66,14 @@ p {
   color: yellow;
 }
 
+.copyright {
+  color: whitesmoke;
+  text-align: center;
+  background-color: #006666;
+  margin-bottom: 0;
+  padding: 0.3rem;
+}
+
 @media (max-width: 991px) {
   .content {
     width: 90vw;
@@ -64,11 +82,14 @@ p {
   .logo {
     width: 60%;
   }
+  .pages {
+    width: 40%;
+  }
   h3 {
     font-size: 0.9rem;
   }
   p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: whitesmoke;
   }
 }
