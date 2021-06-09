@@ -188,7 +188,7 @@ const products = [
       "https://images-na.ssl-images-amazon.com/images/I/71%2BvV9REPaL._SL1500_.jpg",
       "https://images-na.ssl-images-amazon.com/images/I/614aAsNg0OL._SL1500_.jpg",
     ],
-    rating: 4.5,
+    rating: 4.6,
     description:
       "It is difficult for toddler to use adult toilet.But now,baby potty training is much eaiser with our potty training seat with two step ladders.What'more, this potty seat ladder is adjustable.You can adjust the height according to the actual situation of your toilet.The potty chair comes with the plastic screws which makes its easy to assemble and makes the ladder very sturdy.A deflect is included for boys and girls ,Cartoon makes them more interested in hand washing.Foldable design makes it convient to storage when you are not using it.It can save your space.",
     link: "https://amzn.to/354O8Vm",
